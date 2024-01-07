@@ -1,0 +1,75 @@
+/* Common Styles Beginning*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#FFFFFF;
+    font-size:20px;
+    line-height: 32px;
+    font-family:'Inter', sans-serif ;
+    font-weight: 400;
+    color:#070211;  
+    text-transform: capitalize;
+}
+.common-wrap{
+    max-width: 1360px;
+    padding:0 20px;
+    margin:0 auto;
+}
+/* Common Styles End */
+
+/* Typography */
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif; */
+
+h1{
+    font-size:88px;
+    line-height:94px;
+    font-family:'Inter', sans-serif;
+    font-weight:700;
+}
+h2{
+    font-size:72px;
+    line-height:95px;
+    font-family:'Merriweather', serif;
+    font-weight:900;
+}
+h3{
+    font-size:64px;
+    line-height:88px;
+    font-family:'Merriweather', serif;
+    font-weight:900;
+}
+h4{
+    font-size:48px;
+    line-height:54px;
+    font-family:'Inter', sans-serif;
+    font-weight:700;
+}
+h5{
+    font-size:32px;
+    line-height:38px;
+    font-family:'Merriweather', serif;
+    font-weight:400;
+    color:#FFFFFF;
+}
+h6{
+    font-size:24px;
+    line-height:30px;
+    font-family: 'Inter', sans-serif;
+    font-weight:500;
+}
+.text-uppercase{
+    text-transform:uppercase;
+}
+.text-center{
+    text-align:center;
+}
+.text-red{
+    color:#FF0000;
+}
+/* Typography */
