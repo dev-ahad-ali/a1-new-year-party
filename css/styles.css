@@ -94,3 +94,20 @@ header{
     margin-top:16px;
 }
 /* Header Style End */
+/* New Year Offer Style Beginning */
+.new-year-offer{
+    max-width: 842px;
+    padding: 0 20px;
+    margin:120px auto 0;
+}
+.new-year-offer h6{
+    margin-top:48px;
+} 
+.new-year-offer h4{
+    margin-top:16px;
+}
+.new-year-offer img{
+    width: 100%;
+    margin-top: 48px;
+}
+/* New Year Offer Style End */
