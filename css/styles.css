@@ -73,3 +73,24 @@ h6{
     color:#FF0000;
 }
 /* Typography */
+
+/* Header Style Beginning */
+header{
+    margin-top: 50px;
+}
+.banner{
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    min-height:600px;
+    border-radius:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.banner-text h2{
+    max-width:632px;
+    color:#FFFFFF;
+    margin-top:16px;
+}
+/* Header Style End */
