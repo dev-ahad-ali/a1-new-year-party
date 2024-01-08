@@ -202,6 +202,8 @@ header {
   max-width: 394px;
 }
 .coming-soon-text h4 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
   margin-top: 16px;
 }
 .coming-soon-text p {
@@ -272,6 +274,8 @@ header {
   max-width: 895px;
 }
 .portfolio-title h4 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
   margin-top: 16px;
 }
 .portfolio-title p {
@@ -306,6 +310,8 @@ header {
   margin: 0 auto;
 }
 .newsletter-title h4 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
   margin-top: 40px;
 }
 .newsletter-title p {
