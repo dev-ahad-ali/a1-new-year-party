@@ -133,8 +133,10 @@ header {
 }
 .welcome-text {
   max-width: 698px;
-  color: #ffffff;
   margin-left: 126px;
+}
+.welcome-text h3 {
+  color: #ffffff;
 }
 .welcome-text p {
   font-size: 18px;
@@ -145,6 +147,7 @@ header {
   display: block;
   font-weight: 700;
   margin-top: 48px;
+  color: #ffffff;
 }
 /* Welcome Style End */
 /* Schedule Style Beginning */
@@ -337,3 +340,54 @@ header {
   border-radius: 0 50px 50px 0;
 }
 /* Newsletter Style End */
+/* Footer Style Beginning */
+footer {
+  background-color: #070211;
+  color: #ffffff;
+  margin-top: 120px;
+  padding: 120px 0;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts address {
+  max-width: 375px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 500;
+  font-style: normal;
+}
+.contact-links-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.contact-links-item a {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: none;
+  text-decoration: none;
+}
+.social-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 24px;
+  padding: 48px 0;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  margin: 50px 0;
+}
+.copyright {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright span {
+  font-size: 24px;
+  list-style: 40px;
+  font-weight: 500;
+}
+/* Footer Style End */
