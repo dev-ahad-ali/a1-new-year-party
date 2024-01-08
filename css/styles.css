@@ -221,3 +221,43 @@ header {
   margin-top: 44px;
 }
 /* Coming Soon Style End */
+/* Holiday Sale Style Beginning */
+.holiday-sale {
+  margin-top: 120px;
+}
+.holiday-sale-title {
+  max-width: 1068px;
+  margin: 0 auto;
+}
+.holiday-sale-title h2 {
+  margin-top: 16px;
+}
+.holiday-sale-title p {
+  margin-top: 22px;
+}
+.holiday-sale-content {
+  position: relative;
+  margin-top: 70px;
+}
+.gift-image {
+  position: absolute;
+  bottom: 0;
+  left: 35px;
+}
+.discount-content {
+  display: flex;
+  justify-content: right;
+  position: relative;
+}
+.discount-img {
+  position: absolute;
+  right: 275px;
+  top: 75px;
+}
+.base-shape {
+  width: 100%;
+  height: 230px;
+  background-color: #ff0000;
+  border-radius: 16px 0 16px 16px;
+}
+/* Holiday Sale Style End */
