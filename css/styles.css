@@ -1,28 +1,30 @@
 /* Common Styles Beginning*/
-*{
-    margin: 0;
-    padding:0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-body{
-    background-color:#FFFFFF;
-    font-size:20px;
-    line-height: 32px;
-    font-family:'Inter', sans-serif ;
-    font-weight: 400;
-    color:#070211;  
-    text-transform: capitalize;
+img {
+  display: block;
 }
-.common-wrap{
-    max-width: 1360px;
-    padding:0 20px;
-    margin:0 auto;
+body {
+  background-color: #ffffff;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: rgba(7, 2, 17, 0.6);
+  text-transform: capitalize;
 }
-.bg-style{
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center center;
+.common-wrap {
+  max-width: 1360px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.bg-style {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 /* Common Styles End */
 
@@ -30,145 +32,192 @@ body{
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
-
-h1{
-    font-size:88px;
-    line-height:94px;
-    font-family:'Inter', sans-serif;
-    font-weight:700;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #070211;
 }
-h2{
-    font-size:72px;
-    line-height:95px;
-    font-family:'Merriweather', serif;
-    font-weight:900;
+h1 {
+  font-size: 88px;
+  line-height: 94px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
 }
-h3{
-    font-size:64px;
-    line-height:88px;
-    font-family:'Merriweather', serif;
-    font-weight:900;
+h2 {
+  font-size: 72px;
+  line-height: 95px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
 }
-h4{
-    font-size:48px;
-    line-height:54px;
-    font-family:'Inter', sans-serif;
-    font-weight:700;
+h3 {
+  font-size: 64px;
+  line-height: 88px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
 }
-h5{
-    font-size:32px;
-    line-height:38px;
-    font-family:'Merriweather', serif;
-    font-weight:400;
-    color:#FFFFFF;
+h4 {
+  font-size: 48px;
+  line-height: 54px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
 }
-h6{
-    font-size:24px;
-    line-height:30px;
-    font-family: 'Inter', sans-serif;
-    font-weight:500;
+h5 {
+  font-size: 32px;
+  line-height: 38px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  color: #ffffff;
 }
-.text-uppercase{
-    text-transform:uppercase;
+h6 {
+  font-size: 24px;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
 }
-.text-center{
-    text-align:center;
+.text-uppercase {
+  text-transform: uppercase;
 }
-.text-red{
-    color:#FF0000;
+.text-center {
+  text-align: center;
+}
+.text-red {
+  color: #ff0000;
 }
 /* Typography */
 
 /* Header Style Beginning */
-header{
-    margin-top: 50px;
+header {
+  margin-top: 50px;
 }
-.banner{
-    min-height:600px;
-    border-radius:16px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+.banner {
+  min-height: 600px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.banner-text h2{
-    max-width:632px;
-    color:#FFFFFF;
-    margin-top:16px;
+.banner-text h2 {
+  max-width: 632px;
+  color: #ffffff;
+  margin-top: 16px;
 }
 /* Header Style End */
 /* New Year Offer Style Beginning */
-.new-year-offer{
-    max-width: 842px;
-    padding: 0 20px;
-    margin:120px auto 0;
+.new-year-offer {
+  max-width: 842px;
+  padding: 0 20px;
+  margin: 120px auto 0;
 }
-.new-year-offer h6{
-    margin-top:48px;
-} 
-.new-year-offer h4{
-    margin-top:16px;
+.new-year-offer h6 {
+  margin-top: 48px;
 }
-.new-year-offer img{
-    width: 100%;
-    margin-top: 48px;
+.new-year-offer h4 {
+  margin-top: 16px;
+}
+.new-year-offer img {
+  width: 100%;
+  margin-top: 48px;
 }
 /* New Year Offer Style End */
 /* Welcome Style Beginning */
-.welcome{
-    margin-top:120px;
+.welcome {
+  margin-top: 120px;
 }
-.welcome-content{
-    min-height:600px;
-    display: flex;
-    align-items: center;
+.welcome-content {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
 }
-.welcome-text{
-    max-width:698px;
-    color:#FFFFFF;
-    margin-left:126px;
+.welcome-text {
+  max-width: 698px;
+  color: #ffffff;
+  margin-left: 126px;
 }
-.welcome-text p{
-    font-size:18px;
-    color:rgba(255, 255, 255, 0.80);
-    margin-top:24px;
+.welcome-text p {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 24px;
 }
-.welcome-text span{
-    display:block;
-    font-weight: 700;
-    margin-top: 48px;
+.welcome-text span {
+  display: block;
+  font-weight: 700;
+  margin-top: 48px;
 }
 /* Welcome Style End */
 /* Schedule Style Beginning */
-.schedule{
-    margin-top:100px;
+.schedule {
+  margin-top: 100px;
 }
-.schedule-info{
-    padding: 100px 0 110px;
-    background:  linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    border-radius:16px ;
+.schedule-info {
+  padding: 100px 0 110px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 16px;
 }
-.schedule-info h5{
-    line-height: 56px;
-    font-family: 'Inter', sans-serif;
-    font-weight:600;
-    color:#070211;
+.schedule-info h5 {
+  line-height: 56px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: #070211;
 }
-.btn-red{
-    width: 168px;
-    height: 56px;
-    font-size: 20px;
-    font-weight: 800;
-    color:#ffffff;
-    background-color: #FF0000;
-    text-transform: uppercase;
-    border:transparent;
-    border-radius: 8px;
-    margin-top: 64px;
-    transition: all 0.3s ease-in-out;
+.btn-red {
+  width: 168px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  background-color: #ff0000;
+  text-transform: uppercase;
+  border: transparent;
+  border-radius: 8px;
+  margin-top: 64px;
+  transition: all 0.3s ease-in-out;
 }
-.btn-red:hover{
-    border:1px solid #FF0000;
-    background-color: transparent;
-    color:#FF0000;
+.btn-red:hover {
+  border: 1px solid #ff0000;
+  background-color: transparent;
+  color: #ff0000;
 }
 /* Schedule Style End */
+/* Coming Soon Style Beginning */
+.coming-soon {
+  margin-top: 120px;
+}
+.coming-soon-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.coming-soon-text {
+  max-width: 394px;
+}
+.coming-soon-text h4 {
+  margin-top: 16px;
+}
+.coming-soon-text p {
+  margin-top: 22px;
+}
+.coming-soon-image {
+  max-width: 464px;
+  padding: 50px;
+  border: 15px solid #ff0000;
+  border-radius: 100%;
+}
+.new-year-wish {
+  max-width: 276px;
+  margin-top: 55px;
+}
+.new-year-wish p {
+  margin-top: 16px;
+}
+.new-year-wish img {
+  margin-top: 44px;
+}
+/* Coming Soon Style End */
